@@ -43,3 +43,25 @@ console.log(url.searchParams);
 В [справочнике](https://www.iana.org/assignments/media-types/media-types.xhtml) в столбце _Name_ указывается что за тип
 данных, а столбце _Template_ какой следует указывать Content-Type.
 
+## Запуск проекта
+
+Склонируйте репозиторий и установите зависимости:
+
+```sh
+npm i
+```
+
+- Запуск приложения в development mode (reload mode):
+
+    ```sh
+    npm run dev
+    ```
+    Откройте в браузере [http://localhost:3000](http://localhost:3000).
+
+
+- Запуск приложения в обычном режиме (withput reload):
+
+    ```sh
+    npm run start
+    ```
+    Откройте в браузере [http://localhost:3000](http://localhost:3000).
